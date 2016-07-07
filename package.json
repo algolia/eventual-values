@@ -1,6 +1,6 @@
 {
   "name": "eventual-values",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "eventual-values is a tiny JS library that lets you to create values that are themselved pending, errored, or resolved",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,7 @@
     "babel-register": "^6.9.0",
     "chai": "^3.5.0",
     "conventional-changelog": "^1.1.0",
+    "conventional-changelog-cli": "^1.2.0",
     "json": "^9.0.4",
     "mocha": "^2.5.3",
     "mversion": "^1.10.1",
