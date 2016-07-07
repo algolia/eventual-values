@@ -1,6 +1,6 @@
 {
   "name": "eventual-values",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "eventual-values is a tiny JS library that lets you to create values that are themselved pending, errored, or resolved",
   "main": "index.js",
   "repository": "https://github.com/algolia/eventual-values",
