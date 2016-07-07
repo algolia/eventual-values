@@ -56,7 +56,7 @@ conventional-changelog --preset angular --infile CHANGELOG.md --same-file
 
 # git add and tag
 commitMessage="v$newVersion\n\n$changelog"
-git add src/version.js package.json CHANGELOG.md README.md CONTRIBUTING.md
+git add src/version.js package.json CHANGELOG.md README.md
 printf "%s" "$commitMessage" | git commit --file -
 git tag "v$newVersion"
 
