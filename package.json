@@ -3,12 +3,13 @@
   "version": "0.1.1",
   "description": "eventual-values is a tiny JS library that lets you to create values that are themselved pending, errored, or resolved",
   "main": "index.js",
+  "repository": "https://github.com/algolia/eventual-values",
   "scripts": {
     "build": "LIBRARY_NAME=eventual-values ./scripts/build.sh",
     "release": "./scripts/release.sh",
     "test": "mocha --opts .mocharc ./src/**/__tests__/*.js"
   },
-  "author": "Alexandre Meunier",
+  "author": "Alexandre Meunier <alexandre.meunier@algolia.com>",
   "license": "MIT",
   "dependencies": {
     "lodash.isobject": "^3.0.2"
