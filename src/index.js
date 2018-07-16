@@ -11,7 +11,7 @@ export function isPending(value) {
 
 export function isError(value) {
   return value instanceof Error ||
-    isObject(value) && value.messagae && value.stack;
+    isObject(value) && value.message && value.stack;
 }
 
 export function isReady(value) {
